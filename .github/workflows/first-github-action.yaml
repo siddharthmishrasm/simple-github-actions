@@ -3,7 +3,7 @@ on: [push]
 
 jobs :
   run-shell-command:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     name: Run a shell command and print some text
     steps:
       - name: Echo a Staring
